@@ -1,0 +1,584 @@
+.container label,
+input,
+img {
+    display: block;
+}
+
+.container {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Teko', sans-serif;
+}
+
+.up-top {
+    /* border: 10px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.menu {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.menu p {
+    width: 99%;
+    /* border: 2px solid rebeccapurple; */
+    /* margin-right: 30%; */
+    text-align: center;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+.menu ul:hover li {
+    display: block;
+}
+
+.links {
+    outline: none;
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu ul li a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li button {
+    outline: none;
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+#li-menu {
+    margin-left: 0px
+}
+
+.menu ul li {
+    display: none;
+    width: auto;
+    padding: 10px;
+    /* border: 10px solid green; */
+    /* margin: 10px; */
+    font-size: 20px;
+}
+
+
+
+.main {
+    /* border: 2px solid green; */
+    margin:auto;
+    padding: 30px;
+}
+
+.myself {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.self-description {
+    margin: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.self-description img {
+    margin: auto;
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+}
+
+
+.labels {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 8%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.about-myself {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+}
+
+
+.brief-description p {
+    font-size: 25px;
+}
+
+.personal-details {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-top: 50px;
+}
+
+.personal-details-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.interests {
+    margin-top: 50px;
+    width: 99%
+}
+
+.interests p {
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.skills {
+    margin: 0px;
+    font-size: 25px;
+}
+
+
+.technicality {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.technicality p {
+    width: 100px;
+    /* background: rgb(69, 255, 175); */
+    /* background: linear-gradient(90deg, rgba(69, 255, 175, 1) 0%, rgba(69, 255, 175, 1) 50%, rgba(69, 255, 175, 1) 100%); */
+    /* color: white; */
+   
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 8%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+
+}
+
+.label-correction {
+    margin-top: 30px;
+}
+
+.knowledge {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.professionality {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.professionality p {
+    width: 100px;
+    /* background: rgb(69, 255, 175); */
+    /* background: linear-gradient(90deg, rgba(69, 255, 175, 1) 0%, rgba(69, 255, 175, 1) 50%, rgba(69, 255, 175, 1) 100%); */
+    /* color: white; */
+   
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 8%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+.resume {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.projects {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.projects a label {
+    background-color: red;
+    color: white;
+    /* border: 2px solid red; */
+    height: 100px;
+    font-size: 70px;
+    /* text-align: center; */
+    margin-bottom: 20px;
+
+}
+
+
+.my-contact-form {
+    /* border: 2px solid green; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.my-contact-form input {
+    width: 99%;
+    height: 30px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+
+}
+
+#message {
+    height: 200px;
+    text-align: center;
+}
+
+
+.bottom {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.icons {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons i {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.countdowner {
+    margin: 0px;
+    padding: 0px;
+    
+    /* border: 2px solid red; */
+}
+
+.countdowner header {
+    width: 100%;
+}
+
+#countdowner-home {
+    /* border: 2px solid red; */
+    margin-right: auto;
+}
+.countdowner a {
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+
+.about {
+    margin: 0px;
+    background-color: black;
+    background-image: url(./About/823603.webp);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: white;
+    height: 100%;
+    width: auto;
+    font-size: 30px;
+    /* border: 2px solid red; */
+}
+
+.about-main {
+    height: 74vh;
+
+}
+
+
+.about p {
+    margin-left: 20px;
+}
+
+.about main {
+/* border: 2px solid red; */
+margin-top: 100px;
+}
+
+
+.container-about {
+    /* border: 2px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 84vh;
+}
+
+.container-about img {
+        display: block;
+        /* border: 2px solid red; */
+    
+        height: 500px;
+        width: auto;
+        align-self: center;
+    
+}
+
+.countdown {
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5%;
+}
+
+#countdowner-home {
+    margin: 0px
+    
+}
+
+#countdowner-menu {
+    border: 2px solid green;
+}
+
+
+
+@media (min-width:720px) {
+    .menu ul li {
+        display: flex;
+        width: auto;
+        margin-right: 30px;
+        /* padding: 10px;
+        /* border: 10px solid green; */
+        /* margin: 10px; */
+        /* font-size: 20px; */ 
+    }
+
+   .menu p {
+        text-align: left;
+        margin-left: 40px;
+    }
+
+    .about-myself {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "per per" "bri int";
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    } 
+
+     .brief-description {
+        grid-area: bri;
+       padding: 20px;
+       margin-right: 10px;
+    } 
+
+    .label-correction {
+        margin-top: 0px;
+    }
+
+    .personal-details {
+        grid-area: per;
+        padding: 20px;
+        
+    }
+
+    .personal-details label {
+        width: 97%;
+    }
+
+
+    .interests {
+        grid-area: int;
+        margin-top: 20px;
+        margin-left: 10px;
+    } 
+
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "ski ski" "teh pro" "teh pro";
+}
+
+.skills label {
+    grid-area: ski;
+}
+.technicality {
+    grid-area: teh;
+    margin: 0px;
+}
+
+.professionality {
+    grid-area: pro;
+    margin: 0px;
+}
+
+.labels {
+    text-align: center;
+}
+
+.resume {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+grid-template-areas: "edu exp";
+}
+
+.education {
+    grid-area: edu;
+    margin-right: 20px;
+}
+
+.experience {
+    grid-area: exp;
+    margin-left: 20px;
+}
+
+
+.form-project {
+gap: 30px;
+}
+
+.my-contact-form {
+width: 75%;
+margin: auto;
+padding-top: 50px;
+}
+
+
+
+
+
+}
+
+
+@media (min-width:1200px) {
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "mys abo" "ski ski" "res res" "for for";
+    margin-right: 0px;
+}
+
+.myself {
+    grid-area: mys;
+}
+
+.about-myself {
+    grid-area: abo;
+    
+}
+
+.skills {
+    grid-area: ski;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "tec pro";
+}
+
+.resume {
+    grid-area: res;
+}
+
+.form-project {
+    grid-area: for;
+}
+
+.education, .experience {
+
+    text-align: center;
+
+}
+
+.personal-details label {
+    margin-right: 20px;
+}
+
+.form-project {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.technicality {
+    grid-area: tec;
+}
+
+.professionality {
+    grid-area: pro;
+}
+
+.none {
+    display: none;
+    font-size: 0px;
+}
+
+
+
+
+}
